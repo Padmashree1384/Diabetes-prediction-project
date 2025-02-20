@@ -35,7 +35,7 @@ st.markdown(
 st.title('Diabetes Prediction using ML 🩺')
 
 # Load trained model safely
-diabetes_model_path = r"diabetes_model_sav"
+diabetes_model_path = r"diabetes_model.sav"
 
 try:
     with open(diabetes_model_path, 'rb') as model_file:
